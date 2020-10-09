@@ -15,7 +15,7 @@ print "  ____) | |_) | (_) | |_| | | | |_| | | |____| | | |  __/ (__|   <  __/ |
 print " |_____/| .__/ \___/ \__|_|_|  \__, |  \_____|_| |_|\___|\___|_|\_\___|_|   "
 print "        | |                     __/ |                                       "
 print "        |_|                    |___/                                        "
-print "                                             FakeSmile	              	 "
+print "                                             FakeSmile	              	   "
 print "                                             help : t.me/FakeSmile"
 
 check = raw_input("\nWARNING....!..: The tools is on developing and this is Alpha Version. Tool maybe miss behave sometimes. \n Do you want to continue (yes/no | Default:yes): ")
@@ -152,3 +152,4 @@ t8.join()
 
 print "\nTotal Checked account = ", tryno
 print "\nPremium Accounts List Saved at : PremiumAccounts.txt \nFree Accounts List Saved at : FreeAccounts.txt"
+print "\nSend your feed/report issue to @FakeSmileUX"
