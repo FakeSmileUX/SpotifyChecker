@@ -18,7 +18,7 @@ print "        |_|                    |___/                                     
 print "                                             FakeSmile	              	   "
 print "                                             help : t.me/FakeSmile"
 
-check = raw_input("\nWARNING....!..: The tools is on developing and this is Alpha Version. Tool maybe miss behave sometimes. \n Do you want to continue (yes/no | Default:yes): ")
+check = raw_input("\nWARNING....!..: The tools is on developing and this is BETA Version. Tool maybe miss behave sometimes. \n Do you want to continue (yes/no | Default:yes): ")
 
 if check in ['n', 'N', 'No', 'no', 'NO']:
 	quit()
@@ -32,7 +32,7 @@ Fno = 0
 Dno = 0
 tryno = 0
 
-
+url = "https://checkz.net/tools/spotify-account-checker"
 
 loaded = len(open(account).readlines())
 print "\n", loaded, " Accounts loaded for checking.......!"
@@ -47,8 +47,7 @@ def result(country, userpass,response):
 		#print response.text
 		tryno = tryno+1
 		Pno = Pno+1
-		print "|" , tryno, " Accounts Checked ..! | Premium:", 
-		 ," | Free: ", Fno ," | Dead: ", Dno
+		print "|" , tryno, " Accounts Checked ..! | Premium:", Pno ," | Free: ", Fno ," | Dead: ", Dno
 		print Pac
 	elif 'Free' in (response.text):
 		Fac = "|Free account | Country:"+ country + " Exp: Null| " + userpass
