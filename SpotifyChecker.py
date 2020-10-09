@@ -15,8 +15,8 @@ print "  ____) | |_) | (_) | |_| | | | |_| | | |____| | | |  __/ (__|   <  __/ |
 print " |_____/| .__/ \___/ \__|_|_|  \__, |  \_____|_| |_|\___|\___|_|\_\___|_|   "
 print "        | |                     __/ |                                       "
 print "        |_|                    |___/                                        "
-print "                                             FakeSmile	              	   "
-print "                                             help : t.me/FakeSmile"
+print "                                             Creator: FakeSmile             "
+print "                                             help : t.me/FakeSmileUX"
 
 check = raw_input("\nWARNING....!..: The tools is on developing and this is BETA Version. Tool maybe miss behave sometimes. \n Do you want to continue (yes/no | Default:yes): ")
 
